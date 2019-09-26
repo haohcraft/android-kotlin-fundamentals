@@ -1,3 +1,4 @@
+
 /*
  * Copyright (C) 2018 Google Inc.
  *
@@ -13,7 +14,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
 package com.example.android.aboutme
 
+import android.provider.ContactsContract.CommonDataKinds.Nickname
+
 // Create data class MyName for the name and nickname here.
+
+data class MyName(var name: String = "", var nickname: String = "")
